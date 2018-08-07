@@ -4,15 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <title>fireMessage</title>
-
     <!--Go to https://console.firebase.google.com-->
     <!--Sign in and add a project "fireMessage"-->
     <!--PASTE SNIPPET HERE-->
-
-
-
+    <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyCvZQLQOFLAAdUIWsfMMQ-S2wzgqvsmB8w",
+        authDomain: "firemessage-ae56f.firebaseapp.com",
+        databaseURL: "https://firemessage-ae56f.firebaseio.com",
+        projectId: "firemessage-ae56f",
+        storageBucket: "firemessage-ae56f.appspot.com",
+        messagingSenderId: "745231597548"
+    };
+    firebase.initializeApp(config);
+    </script>
     <!--custom files-->
     <script src="lib/js/main.js" defer></script>
     <link rel="stylesheet" href="lib/css/style.css">
